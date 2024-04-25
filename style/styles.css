@@ -37,7 +37,7 @@ body {
     opacity: 0px;
     background: linear-gradient(180deg, #6A32B4 0%, #552693 100%);
     color: white;
-    font-size: 130%;
+    font-size: calc(0.2rem + 1vw);
     display: block;
 }
 
@@ -154,6 +154,7 @@ header {
     display: flex;
     position: fixed;
     left: 12%;
+    font-size: calc(0.1rem + 0.8vw);
 }
 
 header p {
@@ -194,7 +195,7 @@ header div img {
 
 .mainText {
     position: absolute;
-    font-size: 65px;
+    font-size: calc(3rem + 1vw);
     width: 50%;
     text-transform: uppercase;
     color: white;
@@ -217,5 +218,5 @@ header div img {
 
 .textTwo {
     color: #969AF7;
-    font-size: 50px;
+    font-size: calc(2rem + 1vw);
 }
