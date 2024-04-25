@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: red;
+    background-image: url('../assets/image/77.png');
     background-repeat: no-repeat;
 }
 
@@ -68,7 +68,7 @@ body {
     background-color: #F5F3FF;
     border-radius: 8px;
     border: solid 1px #c9c6d4;
-    height: 40px;
+    height: calc(1rem + 0.8vw);
     width: 75%;
     padding: 2%;
     padding-left: 7%;
@@ -86,7 +86,7 @@ body {
 
 .buttonSend button {
     position: relative;
-    height: 50px;
+    height: calc(2rem + 1vw);
     width: 100%;
     background-color: #FFA500;
     border-radius: 8px;
